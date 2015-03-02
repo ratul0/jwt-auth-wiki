@@ -1,5 +1,3 @@
-# Installation
-
 To install this package you will need:
 
 - Laravel 4 or 5 *(see compatibility table)*
