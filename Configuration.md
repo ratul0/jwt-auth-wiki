@@ -5,7 +5,7 @@ Note the following options.
 The key that will be used to sign your tokens. I decided to keep this separate from the Laravel `APP_KEY`
 so that developers can change them independently from each other.
 
-There is a helper artisan command to generate a random key for you, (see [Installation](ttps://github.com/tymondesigns/jwt-auth/wiki/Installation))
+There is a helper artisan command to generate a random key for you, (see [Installation](https://github.com/tymondesigns/jwt-auth/wiki/Installation))
 
 ### Token time to live - `ttl`
 
