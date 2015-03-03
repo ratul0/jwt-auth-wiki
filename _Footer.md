@@ -1,0 +1,1 @@
+[Configuration &rarr;](https://github.com/tymondesigns/jwt-auth/wiki/Configuration)
