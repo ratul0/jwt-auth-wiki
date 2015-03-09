@@ -25,7 +25,7 @@ The most common way to create a token would be to authenticate the user via thei
 
 ```php
 use Tymon\JWTAuth\Exceptions\JWTException;
-
+use JWTAuth;
 class AuthenticateController extends Controller
 {
     public function authenticate(Request $request)
