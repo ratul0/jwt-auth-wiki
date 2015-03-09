@@ -24,8 +24,9 @@ The most common way to create a token would be to authenticate the user via thei
 #### Laravel 5
 
 ```php
-use Tymon\JWTAuth\Exceptions\JWTException;
 use JWTAuth;
+use Tymon\JWTAuth\Exceptions\JWTException;
+
 class AuthenticateController extends Controller
 {
     public function authenticate(Request $request)
