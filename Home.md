@@ -13,3 +13,7 @@ Laravel version | jwt-auth version
 ------------|------------
 `4.*` | `0.3.*` `0.4.*`
 `5.*` | `0.5.*`
+
+## Other Notes
+
+[dingo/api](https://github.com/dingo/api/) has in-built support for this package. It's a great package and can save you tons of time if you are building a fully fledged API. Check it out
