@@ -29,7 +29,7 @@ To get the token from the request you can do:
 JWTAuth::parseToken();
 
 // and you can continue to chain methods
-$user = JWTAuth::parseToken()->toUser();
+$user = JWTAuth::parseToken()->authenticate();
 ```
 
 To get the token value, you can call:
