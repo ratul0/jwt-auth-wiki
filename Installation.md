@@ -25,6 +25,12 @@ Next, also in the `app.php` config file, under the `aliases` array, you may want
 'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth'
 ```
 
+Also included is a Facade for the PayloadFactory. This gives you finer control over the payloads you create if you require it
+
+```php
+'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory'
+```
+
 Finally, you will want to publish the config using the following command:
 
 #### Laravel 4:
