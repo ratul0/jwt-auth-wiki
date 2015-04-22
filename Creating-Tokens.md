@@ -116,7 +116,7 @@ $payload = JWTFactory::make($customClaims);
 $token = JWTAuth::encode($payload);
 ```
 
-You can also chain claims directly onto the `PayloadFactory` instance
+You can also chain claims directly onto the `PayloadFactory` instance, (or using the included facade)
 
 ```php
 // add a custom claim with a key of `foo` and a value of ['bar' => 'baz']
