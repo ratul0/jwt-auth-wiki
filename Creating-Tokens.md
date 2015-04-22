@@ -107,11 +107,11 @@ And these custom claims will be available alongside the other claims when decodi
 
 I have provided access to the underlying classes and methods to offer advanced/custom functionality.
 
-Example using the built in `PayloadFactory` instance:
+Example using the built in `Tymon\JWTAuth\PayloadFactory` instance:
 ```php
 $customClaims = ['foo' => 'bar', 'baz' => 'bob'];
 
-$payload = app('tymon.jwt.payload.factory')->make($customClaims);
+$payload = JWTFactory::make($customClaims);
 
 $token = JWTAuth::encode($payload);
 ```
@@ -120,7 +120,7 @@ You can also chain claims directly onto the `PayloadFactory` instance
 
 ```php
 // add a custom claim with a key of `foo` and a value of ['bar' => 'baz']
-$payload = app('tymon.jwt.payload.factory')->sub(123)->aud('foo')->foo(['bar' => 'baz'])->make();
+$payload = JWTFactory::sub(123)->aud('foo')->foo(['bar' => 'baz'])->make();
 
 $token = JWTAuth::encode($payload);
 ```
