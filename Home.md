@@ -17,3 +17,5 @@ Laravel version | jwt-auth version
 ## Other Notes
 
 [dingo/api](https://github.com/dingo/api/) has in-built support for this package. It's a great package and can save you tons of time if you are building a fully fledged API. Check it out
+
+If you're using Angular and building a Single page app then you might find [angular-locker](https://github.com/tymondesigns/angular-locker) helpful for storing your tokens on the client using local and session storage.
