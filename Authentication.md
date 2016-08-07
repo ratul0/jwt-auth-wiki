@@ -165,7 +165,7 @@ To use the middlewares you will have to register them in `app/Http/Kernel.php` u
 ```php
 protected $routeMiddleware = [
 	...
-	'jwt.auth' => 'Tymon\JWTAuth\Middleware\GetUserFromToken',
-	'jwt.refresh' => 'Tymon\JWTAuth\Middleware\RefreshToken',
+	'jwt.auth' => \Tymon\JWTAuth\Middleware\GetUserFromToken::class,
+        'jwt.refresh' => \Tymon\JWTAuth\Middleware\RefreshToken::class,
 ];
 ```
